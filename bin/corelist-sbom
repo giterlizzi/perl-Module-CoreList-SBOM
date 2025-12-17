@@ -1,0 +1,46 @@
+#!/usr/bin/perl
+
+use strict;
+use warnings;
+use utf8;
+
+use Module::CoreList::SBOM;
+
+exit Module::CoreList::SBOM->run(@ARGV) unless caller();
+
+__END__
+
+=encoding utf-8
+
+=head1 NAME
+
+corelist-sbom - Generate SBOM (Software Bill of Materials) from Module::Corelist
+
+=head1 SYNOPSIS
+
+    corelist-sbom <PerlVersion> [--disable-metacpan] [--output,-o FILENAME]
+    corelist-sbom [--help|--man|-v]
+
+
+    Options:
+      -o, --output            Output file. Default perl-core-<PerlVersion>.bom.json
+          --disable-metacpan  Disable MetaCPAN client
+
+          --help              Brief help message
+          --man               Full documentation
+      -v, --version           Print version
+
+=head1 SEE ALSO
+
+L<SBOM::CycloneDX> L<Module::CoreList>
+
+=head1 AUTHOR
+
+L<Giuseppe Di Terlizzi|https://metacpan.org/author/gdt>
+
+=head1 COPYRIGHT AND LICENSE
+
+Copyright © 2025 L<Giuseppe Di Terlizzi|https://metacpan.org/author/gdt>
+
+You may use and distribute this module according to the same terms
+that Perl is distributed under.
