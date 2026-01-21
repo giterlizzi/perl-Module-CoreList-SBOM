@@ -1,6 +1,6 @@
-[![Release](https://img.shields.io/github/release/giterlizzi/perl-Modules-CoreList-SBOM.svg)](https://github.com/giterlizzi/perl-Modules-CoreList-SBOM/releases) [![Actions Status](https://github.com/giterlizzi/perl-Modules-CoreList-SBOM/workflows/linux/badge.svg)](https://github.com/giterlizzi/perl-Modules-CoreList-SBOM/actions) [![License](https://img.shields.io/github/license/giterlizzi/perl-Modules-CoreList-SBOM.svg)](https://github.com/giterlizzi/perl-Modules-CoreList-SBOM) [![Starts](https://img.shields.io/github/stars/giterlizzi/perl-Modules-CoreList-SBOM.svg)](https://github.com/giterlizzi/perl-Modules-CoreList-SBOM) [![Forks](https://img.shields.io/github/forks/giterlizzi/perl-Modules-CoreList-SBOM.svg)](https://github.com/giterlizzi/perl-Modules-CoreList-SBOM) [![Issues](https://img.shields.io/github/issues/giterlizzi/perl-Modules-CoreList-SBOM.svg)](https://github.com/giterlizzi/perl-Modules-CoreList-SBOM/issues) [![Coverage Status](https://coveralls.io/repos/github/giterlizzi/perl-Modules-CoreList-SBOM/badge.svg)](https://coveralls.io/github/giterlizzi/perl-Modules-CoreList-SBOM)
+[![Release](https://img.shields.io/github/release/giterlizzi/perl-Module-CoreList-SBOM.svg)](https://github.com/giterlizzi/perl-Module-CoreList-SBOM/releases) [![Actions Status](https://github.com/giterlizzi/perl-Module-CoreList-SBOM/workflows/linux/badge.svg)](https://github.com/giterlizzi/perl-Module-CoreList-SBOM/actions) [![License](https://img.shields.io/github/license/giterlizzi/perl-Module-CoreList-SBOM.svg)](https://github.com/giterlizzi/perl-Module-CoreList-SBOM) [![Starts](https://img.shields.io/github/stars/giterlizzi/perl-Module-CoreList-SBOM.svg)](https://github.com/giterlizzi/perl-Module-CoreList-SBOM) [![Forks](https://img.shields.io/github/forks/giterlizzi/perl-Module-CoreList-SBOM.svg)](https://github.com/giterlizzi/perl-Module-CoreList-SBOM) [![Issues](https://img.shields.io/github/issues/giterlizzi/perl-Module-CoreList-SBOM.svg)](https://github.com/giterlizzi/perl-Module-CoreList-SBOM/issues) [![Coverage Status](https://coveralls.io/repos/github/giterlizzi/perl-Module-CoreList-SBOM/badge.svg)](https://coveralls.io/github/giterlizzi/perl-Module-CoreList-SBOM)
 
-# Modules-CoreList-SBOM (Software Bill of Materials) generator for Modules::CoreList
+# Module-CoreList-SBOM (Software Bill of Materials) generator for Modules::CoreList
 
 ## Synopsis
 
@@ -22,7 +22,7 @@ Options:
 
 Using Makefile.PL:
 
-To install `Modules-CoreList-SBOM` distribution, run the following commands.
+To install `Module-CoreList-SBOM` distribution, run the following commands.
 
     perl Makefile.PL
     make
@@ -37,7 +37,7 @@ Using `App::cpanminus`:
 ## Documentation
 
 - `perldoc Modules::CoreList::SBOM`
-- https://metacpan.org/release/Modules-CoreList-SBOM
+- https://metacpan.org/release/Module-CoreList-SBOM
 
 ## Copyright
 
